@@ -1,0 +1,22 @@
+@prefix irc: <http://purl.org/socialparticipation/irc/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://purl.org/socialparticipation/po/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/socialparticipation/po/Snapshot#matehackers> a po:Snapshot ;
+    rdfs:label "Snapshot matehackers" ;
+    po:acquiredThrough "Lalenia supybot"^^xsd:string ;
+    po:availableAt "https://github.com/ttm/"^^xsd:string ;
+    po:createdAt "2015-10-15"^^xsd:string ;
+    po:discorveryRDFFile "https://raw.githubusercontent.com/ttm/matehackers/master/rdf/matehackersMeta.owl"^^xsd:string ;
+    po:discoveryTTLFile "https://raw.githubusercontent.com/ttm/matehackers/master/rdf/matehackersMeta.ttl"^^xsd:string ;
+    po:donatedBy "labMacambira.sf.net"^^xsd:string ;
+    po:originalFile "https://raw.githubusercontent.com/ttm/matehackers/master/base/#matehackers.log"^^xsd:string ;
+    po:rdfFile "https://raw.githubusercontent.com/ttm/matehackers/master/rdf/matehackersTranslate.owl"^^xsd:string ;
+    po:triplifiedIn "2015-11-15T03:29:38.978693"^^xsd:datetime ;
+    po:ttlFile "https://raw.githubusercontent.com/ttm/matehackers/master/rdf/matehackersTranslate.ttl"^^xsd:string ;
+    rdfs:comment "The IRC log of the #matehackers.log IRC channel log"^^xsd:string .
+
